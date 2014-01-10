@@ -5,6 +5,6 @@ public class TestNGSimpleTestO{
 	@Test
 	public void testAdd(){
 		String str = "TestNG is working fine";
-		assertEquals("TestNG is working fine",str);
+		assertEquals("TestNG is wor11king fine",str);
 	}
 }
