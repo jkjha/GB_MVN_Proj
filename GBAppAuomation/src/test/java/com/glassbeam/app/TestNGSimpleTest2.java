@@ -26,7 +26,7 @@ public class TestNGSimpleTest2 {
 	public void testApi() {
 		expect().
 		statusCode(200).
-		body("Status", equalTo("Success")).
+		body("Status", equalTo("Su22ccess")).
 		when().
 		get("http://localhost:9000/dashboards/all/list/m1/p1/sch1");
 	 	//System.out.println("Response received is ::" +res);	
